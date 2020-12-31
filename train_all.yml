@@ -1,0 +1,52 @@
+wanddescription: AllBert for financial-currency data
+
+# Training script to run
+program: finetune_on_pregenerated.py
+
+# Method can be bayes, random, grid
+method: grid
+
+# Metric to optimize
+metric:
+  name: valid_one_loss
+  goal: minimize
+
+
+# Parameters to search over
+parameters:
+  model_name:
+    # value: 'GMMBert'
+    values: ['LogBert', 'ExpBert', 'DisBert', 'FlowBert', 'GMMBert']
+  lr_bert:
+    value: 0.00003
+  lr_mlp:
+    value: 0.01
+  epochs:
+    value: 1
+  train_batch_size:
+    value: 32
+  eval_batch_size:
+    value: 512
+  dataset:
+    values: ["fin-all", "fin-dol", "sci-doc"]
+  do_pretrain:
+    value: True
+  patience:
+    value: 3
+  embed_exp:
+    value: True
+  embed_exp_opt:
+    value: 'high'
+  embed_digit:
+    value: False
+  flow_fix_mu:
+    value: False
+  flow_scale:
+    value: 10.0
+  flow_v:
+    value: '2b'
+  gmm_nmix:
+    value: 31
+  gmm_exponent:
+    value: False
+  # values: ['LogBert', 'ExpBert', 'DisBert', 'FlowBert', 'GMMBert']
