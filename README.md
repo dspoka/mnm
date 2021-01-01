@@ -1,5 +1,5 @@
-# mnm
-- An Empirical Investigation of Contextualized Number Prediction
+# An Empirical Investigation of Contextualized Number Prediction
+### by Spokoyny Daniel and Berg-Kirkpatrick Taylor
 
 # Setup
 - Move data folders to match this structure
