@@ -1,0 +1,17 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "Carnegie Mellon University"
+    family-names: Spokoyny
+    given-names: Daniel
+  -
+    affiliation: "UC San Diego"
+    family-names: "Berg-Kirkpatrick"
+    given-names: Taylor
+cff-version: "1.1.0"
+license: MIT
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/dspoka/mnm/"
+title: "An Empirical Investigation of Contextualized Number Prediction"
+...
