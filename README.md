@@ -20,6 +20,7 @@
     - wandb agent ##id_number##
 
 # Cite
+```
 @inproceedings{berg-kirkpatrick-spokoyny-2020-empirical,
     title = "An Empirical Investigation of Contextualized Number Prediction",
     author = "Spokoyny, Daniel and Berg-Kirkpatrick, Taylor",
@@ -31,3 +32,4 @@
     url = "https://aclanthology.org/2020.emnlp-main.385",
     doi = "10.18653/v1/2020.emnlp-main.385",
 }
+```
