@@ -2,7 +2,7 @@
 ### by Spokoyny Daniel and Berg-Kirkpatrick Taylor
 
 # Setup
-- Data Tar: https://www.dropbox.com/s/lhi4i8kcqxlr7ou/3datasets.tar.gz?dl=0
+- Data Tar: https://www.dropbox.com/s/xe0p1plol113wni/3datasets.tar.gz?dl=0
 - Move data folders to match this structure
     + models/
     + finetune_on_pregenerated.py
